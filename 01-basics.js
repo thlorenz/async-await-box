@@ -18,8 +18,8 @@ async function getUser(id) {
   const user = getUser(2)
   // const user = getUserSync(2)
 
-  // const user = async getUser(2)
-  // const user = async getUserSync(2)
+  // const user = await getUser(2)
+  // const user = await getUserSync(2)
 
   console.log(user)
 })()

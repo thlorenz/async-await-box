@@ -1,0 +1,12 @@
+{
+  "name": "async-await-box",
+  "version": "0.0.0",
+  "description": "Exploring async/await features",
+  "scripts": {
+    "budo": "budo"
+  },
+  "devDependencies": {
+    "budo": "~11.1.4",
+    "debug": "~3.1.0"
+  }
+}

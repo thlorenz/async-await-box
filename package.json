@@ -9,5 +9,9 @@
   "devDependencies": {
     "budo": "~11.1.4",
     "debug": "~3.1.0"
+  },
+  "dependencies": {
+    "delay": "~2.0.0",
+    "p-all": "~1.0.0"
   }
 }

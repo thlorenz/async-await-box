@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Exploring async/await features",
   "scripts": {
-    "budo": "budo"
+    "budo": "budo",
+    "inspect": "node --inspect-brk"
   },
   "devDependencies": {
     "budo": "~11.1.4",

@@ -10,7 +10,7 @@ function task({ wait = 10, result = null, error = null }) {
     if (error != null) {
       setTimeout(() => {
         debugTask('[rejecting]', taskInfo)
-        reject(error)
+        reject(new Error(error))
       }, wait)
     } else {
       setTimeout(() => {

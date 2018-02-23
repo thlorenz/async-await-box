@@ -1,5 +1,8 @@
 'use strict'
 
+// https://github.com/sindresorhus/delay
+// https://github.com/sindresorhus/p-all
+
 /* eslint-disable no-unused-vars */
 
 const { task } = require('./util')

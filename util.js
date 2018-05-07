@@ -22,4 +22,13 @@ function task({ wait = 10, result = null, error = null }) {
   return promise
 }
 
-module.exports = { task }
+async function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+function stayAlive() {
+  setInterval(() => process.stdout.write('.'), 1000)
+}
+if (process.env.LIVE === '1') stayAlive()
+
+module.exports = { task, sleep, stayAlive }
